@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蜗牛笔记</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script name="text/javascript" script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script name="text/javascript" script src="../static/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
+    <style>
+        .row div {
+            border: solid 2px red;
+        }
+
+        body {
+            background: #eee;
+        }
+
+        .header {
+            border-top: solid 3px black;
+        }
+
+        @media (min-width: 1300px) {
+            .container {
+                max-width: 1300px;
+            }
+        }
+    </style>
+</head>
+<body>
+<!--顶部logo和slogan区域-->
+<div class="header">
+    <div class="container" style="height: 80px; border: solid 2px red;">
+        <div class="row">
+            <div class="col-4 "><img src="../static/img/TM.png" width="80"></div>
+            <div class="col-8 d-none d-sm-block" style="text-align: right; padding-top: 20px;">
+                <h2>以蜗牛之名，行学习之实</h2>
+            </div>
+            <div class="col-8 d-sm-none" style="text-align: right; padding-top: 20px;">
+                <h2>技术博客</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <div class="container" style="height: 50px; border: solid 2px red;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled">Disabled</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-12" style="border: none; padding: 0px;">
+            <div class="col-12" style="height: 200px">轮播图</div>
+            <div class="col-12" style="height: 200px">文章一</div>
+            <div class="col-12" style="height: 200px">文章二</div>
+        </div>
+        <div class="col-sm-3 col-12" style="height: 500px; border: none; padding-right: 0px;">
+            <div class="col-12" style="height: 50px">搜索</div>
+            <div class="col-12" style="height: 300px">推荐</div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="height: 150px; border: solid 2px red"></div>
+</body>
+</html>
