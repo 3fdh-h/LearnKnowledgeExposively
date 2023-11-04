@@ -8,7 +8,8 @@
     <script name="text/javascript" script src="../static/js/bootstrap.js"></script>
     <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../static/css/LKE.css">
-
+    {# 引用open-iconic图标库 #}
+    <link href="../static/icon/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 </head>
 <body>
 {# 顶部logo和slogan区域 #}
@@ -58,71 +59,64 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-9 col-12" style="border: none;">
-            {# 轮播图 #}
-            <div class="col-12" style="padding: 10px 0px;">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../static/img/banner-1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../static/img/banner-2.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../static/img/banner-3.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+        <div class="col-sm-9 col-12" style="padding:0px 30px 10px 0px;">
+            <div class="col-12 row article-detail">
+                <div class="col-9 title">
+                    23年了，IT已经凉了！
+                </div>
+                <div class="col-3 favorite" style="">
+                    <label><span class="oi oi-heart" aria-hidden="true"></span> 收藏本文</label>
+                </div>
+                <div class="col-12 info">
+                    作者：强哥&nbsp;&nbsp;&nbsp;类别：蜗牛杂谈&nbsp;&nbsp;&nbsp;日期：2020-10-21 11:14:01&nbsp;&nbsp;&nbsp;阅读：14521 次&nbsp;&nbsp;&nbsp;消耗积分：0
+                    分
+                </div>
+                <div class="col-12" content>
+                    首先我需要承认我的错误，因为我的不专心导致在大二挂了一门概率论，
+                    这是一种对自己极不负责的行为，因为我过于松懈和缺乏责任感才造成的。
+                    我现在对这样的结果感到非常懊悔，我已经认识到了我之前的错误
+                    并且下定决心要改正。
+                    我之所以要写下这篇申请，不仅是因为我的家庭比较困难需要这笔助学金，更是因为我想以
+                    激励自己，我觉得这对于我个人来说是一个改变的机会，它会推动我前
+                    进，激发我去提升自己。
+                    因为我学术上的不良表现，导致很多评优评奖都错过了，时至大三我才明白这个事情，以前觉
+                    得成绩无所谓，几个就行，我为我以前的不正思想感到羞愧难当，为了表明
+                    自己改过自新的决心，我将会完成下面的目标。
                 </div>
             </div>
-            {# 第一篇文章 #}
-            <div class="col-12" style="padding:0px">
-                <div class="col-12 row article-list">
-                    <div class="col-sm-3 col-3 thumb d-none d-sm-block">
-
-                        <img src="https://woniuxyopenfile.oss-cn-beijing.aliyuncs.com/woniuxynote/thumb/622.png"
-                             class="img-fluid"/>
-                    </div>
-                    <div class="col-sm-9 col-xs-12 detail">
-                        <div class="title"><a href="/article/608">培训期间，从未12点之前离开过教室的他入职了，月薪15K！</a></div>
-                        <div class="info">作者：强哥&nbsp;&nbsp;&nbsp;类别：蜗牛杂谈&nbsp;&nbsp;&nbsp;
-                            日期：2020-10-21 11:04:50&nbsp;&nbsp;&nbsp;阅读：2393 次&nbsp;&nbsp;&nbsp;消耗积分：0 分
-                        </div>
-                        <div class="intro">
-                            天上会掉馅饼么？不会。那每个人工作后的高薪是随时间增长就自然而来的么？不是。涨薪的影响要素在于你的工作能力和实践经验，而非时间经验。而高薪的影响要素，大概率来自于行业。比 ...
-                        </div>
-                    </div>
+            {# 文章尾栏 #}
+            <div class="col-12 article-nav">
+                <div>
+                    版本所有，请勿随便转载
+                </div>
+                <div>
+                    <a href="#">上一篇：IT凉透了？</a>
+                </div>
+                <div>
+                    <a href="#">下一篇：学Java狠狠赚它一笔</a>
                 </div>
             </div>
-            {# 第二篇文章 #}
-            <div class="col-12" style="padding:0px">
-                <div class="col-12 row article-list">
-                    <div class="col-sm-3 col-3 thumb d-none d-sm-block">
-
-                        <img src="https://woniuxyopenfile.oss-cn-beijing.aliyuncs.com/woniuxynote/thumb/622.png"
-                             class="img-fluid"/>
+            {# 评论区 #}
+            <div class="col-12 article-comment">
+                <div class="col-12 row" style="margin-top: 10px;">
+                    <div class="col-2">
+                        <label for="nickname">你的昵称</label>
                     </div>
-                    <div class="col-sm-9 col-xs-12 detail">
-                        <div class="title"><a href="/article/608">培训期间，从未12点之前离开过教室的他入职了，月薪15K！</a></div>
-                        <div class="info">作者：强哥&nbsp;&nbsp;&nbsp;类别：蜗牛杂谈&nbsp;&nbsp;&nbsp;
-                            日期：2020-10-21 11:04:50&nbsp;&nbsp;&nbsp;阅读：2393 次&nbsp;&nbsp;&nbsp;消耗积分：0 分
-                        </div>
-                        <div class="intro">
-                            天上会掉馅饼么？不会。那每个人工作后的高薪是随时间增长就自然而来的么？不是。涨薪的影响要素在于你的工作能力和实践经验，而非时间经验。而高薪的影响要素，大概率来自于行业。比 ...
-                        </div>
+                    <div class="col-10">
+                        <input type="text" id="nickname" class="form-control"/>
+                    </div>
+                </div>
+                <div class="col-12 row" style="margin-top: 10px;">
+                    <div class="col-2">
+                        <label for="comment">你的评论</label>
+                    </div>
+                    <div class="col-10">
+                        <textarea type="text" id="comment" style="height:100px;width:100%"></textarea>
+                    </div>
+                </div>
+                <div class="col-12 row">
+                    <div class="col-12" style="text-align: right; margin-bottom: 10px">
+                        <button class=" btn btn-primary">发表评论</button>
                     </div>
                 </div>
             </div>

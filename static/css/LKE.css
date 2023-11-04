@@ -1,0 +1,276 @@
+/*
+首页的样式表文件
+ */
+body {
+    background: #eee;
+}
+
+/* 为全站超链接设置样式*/
+a:link, a:visited {
+    color: #1cc8e3;
+}
+
+a:hover, a:active {
+    color: #666699;
+}
+
+/*为全站div添加圆角*/
+div {
+    border-radius: 8px;
+}
+
+.header {
+    border-top: solid 3px #80ffff;
+}
+
+.menu {
+    border-top: solid 3px #99bbff;
+    background-color: #007bff;
+}
+
+.menu .menu-bar a:link, .menu .menu-bar a:visited {
+    color: white;
+}
+
+/*导航栏样式*/
+.menu .menu-bar {
+    color: black;
+}
+
+/*侧边栏样式*/
+.side {
+    border: solid 2px #00cc00;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.side .tip {
+    background-color: #99e600;
+    height: 42px;
+    color: #000066;
+    line-height: 42px;
+    font-size: 18px;
+    border-bottom: solid 2px #669900;
+}
+
+/*设置文章列表的样式*/
+.side ul {
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.side ul li {
+    line-height: 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #55ff00;
+}
+
+/*设置页脚样式*/
+.footer {
+    background-color: #333333;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    color: white;
+}
+
+.footer a:link {
+    color: #ccffff;
+}
+
+/*文章的显示样式*/
+.article-list {
+    border: solid 1px #cccccc;
+    margin: 10px 0px;
+    background-color: whitesmoke;
+    padding: 15px 0px;
+}
+
+.article-list .thumb {
+    margin: 0px;
+    padding: 2px 10px 0 0;
+}
+
+.article-list .thumb img {
+    width: 210px;
+    height: 125px;
+}
+
+.article-list .detail {
+    padding: 0px 10px;
+}
+
+.article-list .detail .title {
+    font-size: 22px;
+    color: #e56244;
+    margin-bottom: 10px;
+}
+
+.article-list .detail .info {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.article-list .detail .intro {
+    font-size: 16px;
+    word-break: break-all;
+    word-wrap: break-word;
+    line-height: 25px;
+}
+
+.search-bar {
+    margin: 0px;
+    border: solid 1px #cccccc;
+    padding: 10px 0px;
+    background-color: #007bff;
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+/*
+阅读详情的样式表文件
+ */
+body {
+    background: #eee;
+}
+
+/* 为全站超链接设置样式*/
+a:link, a:visited {
+    color: #1cc8e3;
+}
+
+a:hover, a:active {
+    color: #666699;
+}
+
+/*为全站div添加圆角*/
+div {
+    border-radius: 8px;
+}
+
+.header {
+    border-top: solid 3px #80ffff;
+}
+
+.menu {
+    border-top: solid 3px #99bbff;
+    background-color: #007bff;
+}
+
+.menu .menu-bar a:link, .menu .menu-bar a:visited {
+    color: white;
+}
+
+/*导航栏样式*/
+.menu .menu-bar {
+    color: black;
+}
+
+/*侧边栏样式*/
+.side {
+    border: solid 2px #00cc00;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.side .tip {
+    background-color: #99e600;
+    height: 42px;
+    color: #000066;
+    line-height: 42px;
+    font-size: 18px;
+    border-bottom: solid 2px #669900;
+}
+
+/*设置文章列表的样式*/
+.side ul {
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.side ul li {
+    line-height: 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #55ff00;
+}
+
+/*设置页脚样式*/
+.footer {
+    background-color: #333333;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    color: white;
+}
+
+.footer a:link {
+    color: #ccffff;
+}
+
+.search-bar {
+    margin: 0px;
+    border: solid 1px #cccccc;
+    padding: 10px 0px;
+    background-color: #007bff;
+}
+
+/*文章详情的样式*/
+.article-detail {
+    border: solid 1px #cccccc;
+    padding: 0px 10px 0px 20px;
+    margin: 10px;
+}
+
+.article-detail .title {
+    font-size: 30px;
+    color: #4dc4ff;
+    margin-top: 30px;
+}
+
+.article-detail .favorite {
+    text-align: right;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.article-detail .info {
+    margin-bottom: 15px;
+    border-bottom: solid 1px #cccccc;
+    line-height: 60px;
+    font-size: 14px;
+    color: #666666;
+    border-radius: 0px;
+}
+
+.article-detail .content {
+    margin-top: 20px;
+    color: #1b1e21;
+}
+
+.article-nav {
+    border: solid 1px #cccccc;
+    margin: 30px 10px 10px 10px;
+}
+
+.article-nav div {
+    line-height: 35px;
+}
+
+.article-comment {
+    border: solid 1px #cccccc;
+    margin: 20px 10px 10px 10px;
+    padding-right: 0px;
+}
+/*设置鼠标移动到标签上时变成小手*/
+label {
+    cursor: pointer;
+}
